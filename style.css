@@ -1,5 +1,5 @@
 * {
-  background-color: bisque;
+  background-color: rgb(224, 209, 209);
   font-family: "Lato", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Mono", monospace;
@@ -46,7 +46,23 @@
   margin-top: 5%;
   font-weight: lighter;
 }
-#mission-header{
-    border: none;
-    text-align: center;
+#mission-header {
+  border: none;
+  text-align: center;
+}
+.mission-2022 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.plan img {
+  width: 50%;
+}
+.plan {
+  margin: 3%;
+  padding: 3%;
+}
+#goals {
+  background-blend-mode: screen;
+  background: rgba(255, 220, 255, 0.3);
 }
