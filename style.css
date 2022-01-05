@@ -4,35 +4,49 @@
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Mono", monospace;
 }
-#mission-color {
+.mission-color {
   color: crimson;
 }
 .header01 {
-  font-size: 45px;
+  font-size: 65px;
   text-align: left;
+  border-top: none;
+  border-left: 8px solid orange;
 }
 .header-mission {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  margin-top: 5%;
+  padding: 25px;
 }
 .header-mission img {
   width: 100%;
 }
 #focus-detail {
   font-weight: normal;
-  font-size: 15px;
+  font-size: 20px;
+  text-align: left;
+  width: 80%;
 }
 #contact-button {
   text-decoration: none;
   background-color: brown;
   color: bisque;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 25px;
+  border-radius: 5px 10px 5px 10px;
   text-align: center;
   padding: 6px;
+  margin-top: 5%5%;
 }
 #contact-button:hover {
   background-color: chocolate;
+}
+#scroll-detail {
+  margin-top: 5%;
+  font-weight: lighter;
+}
+#mission-header{
+    border: none;
+    text-align: center;
 }
